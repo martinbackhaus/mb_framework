@@ -1,0 +1,43 @@
+@media screen {
+	body {
+		overflow-y: scroll;
+	}
+
+	.wrap {
+		max-width: 80em;
+		margin: 0 auto;
+	}
+
+	.box {
+		padding: 1.5em;
+	}
+
+	header,
+	nav,
+	#main,
+	footer {
+		min-width: 760px;
+		.box {
+			padding: 1.5em;
+		}
+	}
+
+	#header {
+		background: #444;
+		color: #ccc;
+	}
+
+	#nav {
+		background: #222;
+	}
+
+	#footer {
+		background: #eee;
+		color: #444;
+	}
+
+	.g-box {}
+	.g-box-left {}
+	.g-box-right {}
+
+}

@@ -1,0 +1,86 @@
+@media all {
+	body { o\verflow: visible; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { zoom: 1; }
+	audio, canvas, video { *display: inline; *zoom: 1; }
+	img {-ms-interpolation-mode: bicubic; zoom: 1; }
+
+	* html iframe, * html frame {overflow: auto; }
+	* html input, * html frameset { overflow: hidden; }
+	* html textarea { overflow: scroll; overflow-x: hidden; }
+
+	body, #main { position: relative; }
+	* html body { position: static; }
+
+	.clearfix { zoom: 1; }
+
+	* html .col-one, * html .col-two, * html .col-three { position: relative; }
+
+	body { height: 1%; }
+	.wrap, .box, #header, #nav, #main, #footer, #teaser, #subteaser, #subfooter { zoom: 1; }
+	* html .wrap, * html .box { height: 1%; hei\ght: auto; }
+	* html #header, * html #nav * html #main, * html #footer, * html #teaser, * html #subteaser, * html #subfooter { width: 100%; wid\th: auto;}
+
+	.g-box, .g-box-left, .g-box-right { height: 1%; }
+
+	* html ul, * html ol, * html dl { position: relative; }
+	* html ol li { display: list-item; }
+
+	* html .flex { zoom: 1; }
+
+	button, input { *overflow: visible; }
+	fieldset, legend { position: relative; }
+
+	html .clearing-ie {
+		position: static;
+		display: block;
+		\clear: both;
+		width: 100%;
+		line-height: 0;
+		font-size: 0px;
+		margin: -2px 0 -1em 1px;
+	}
+
+	* html .clearing-ie { margin: -2px 0 -1em 0; }
+	.i-center { margin-bottom: -2px; }
+
+	html { margin-right: 1px; }
+	* html { margin-right: 0; }
+
+	.col-three { position: relative; }
+
+}
+
+@media screen, projection {
+	.col-one, .col-two { display: inline; }
+	.grid { overflow: hidden; display: block; }
+	* html .grid { overflow: visible; }
+	.g-left, .g-right { display: inline; }
+	.g-equal {
+		.g-left {
+			float: left;
+			display: inline;
+			padding-bottom: 34000px;
+			margin-bottom: -34000px;
+		}
+		.g-right {
+			float: right;
+			margin-left: -5px;
+			display: inline;
+			padding-bottom: 34000px;
+			margin-bottom: -34000px;
+		}
+	}
+	.no-ie-padding {
+		.g-left, .g-right {
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+	}
+
+	* html .i-center, * html .i-left, * html .i-right { word-wrap: break-word; }
+	* html .g-box, * html .g-box-left, * html .g-box-right { word-wrap: break-word; o\verflow: hidden;}
+}
+
+@media print {
+	.g-box, .g-box-left, .g-box-right { height: 1%; }
+}

@@ -1,0 +1,22 @@
+@media screen {
+	/* COLUMN ORIENTATION */
+
+	.two-col {
+		.col-one {
+			width: 75%;
+			.i-center {
+				padding: 0 0.75em 0 1.5em;
+			}
+		}
+		.col-three {
+			margin-left: 75%;
+			margin-right: 0;
+			.i-center {
+				padding: 0 1.5em 0 0.75em;
+			}
+		}
+		.g-box {
+			padding: 0 1.5em 0 0;
+		}
+	}
+}
