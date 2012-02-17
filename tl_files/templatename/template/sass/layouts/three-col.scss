@@ -1,0 +1,17 @@
+@media screen {
+	.three-col {
+		.col-one {
+			width: 50%;
+			.i-center {
+				padding: 0 0.75em 0 1.5em;
+			}
+		}
+		.col-two {
+			width: 25%;
+		}
+		.col-three {
+			width: 25%;
+			margin-left: 75%;
+		}
+	}
+}

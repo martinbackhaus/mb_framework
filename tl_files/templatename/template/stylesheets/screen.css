@@ -445,3 +445,22 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     padding: 0 1.5em 0 0;
   }
 }
+@media screen {
+  /* line 3, ../sass/layouts/three-col.scss */
+  .three-col .col-one {
+    width: 50%;
+  }
+  /* line 5, ../sass/layouts/three-col.scss */
+  .three-col .col-one .i-center {
+    padding: 0 0.75em 0 1.5em;
+  }
+  /* line 9, ../sass/layouts/three-col.scss */
+  .three-col .col-two {
+    width: 25%;
+  }
+  /* line 12, ../sass/layouts/three-col.scss */
+  .three-col .col-three {
+    width: 25%;
+    margin-left: 75%;
+  }
+}
