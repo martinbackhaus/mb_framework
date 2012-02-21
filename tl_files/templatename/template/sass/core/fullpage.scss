@@ -36,8 +36,8 @@
 		color: #444;
 	}
 
-	.g-box {}
-	.g-box-left {}
-	.g-box-right {}
+	.g-box { padding: 0 10px 0 10px; }
+	.g-box-left { padding: 0 0 0 10px; }
+	.g-box-right { padding: 0 10px 0 0; }
 
 }

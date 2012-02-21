@@ -1,0 +1,113 @@
+<?php echo $this->doctype; ?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php echo $this->language; ?>" lang="<?php echo $this->language; ?>">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $this->charset; ?>" />
+<title><?php echo $this->pageTitle; ?> - <?php echo $this->mainTitle; ?></title>
+<base href="<?php echo $this->base; ?>" />
+<meta name="robots" content="<?php echo $this->robots; ?>" />
+<meta name="description" content="<?php echo $this->description; ?>" />
+<meta name="keywords" content="<?php echo $this->keywords; ?>" />
+<meta http-equiv="Content-Style-Type" content="text/css" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<?php echo $this->framework; ?>
+<?php echo $this->stylesheets; ?>
+<?php echo $this->mooScripts; ?>
+<?php echo $this->head; ?>
+</head>
+<body id="top" class="{{ua::class}}<?php if ($this->class): ?> <?php echo $this->class; ?><?php endif; ?>"<?php if ($this->onload): ?> onload="<?php echo $this->onload; ?>"<?php endif; ?>>
+<?php $this->showIE6warning(); ?>
+
+<?php if($this->header): ?>
+<div id="header">
+<?php echo $this->header; ?>
+</div>
+<?php endif; ?>
+
+<?php if($this->sections['Navigation']): ?>
+<div id="navigation">
+<?php echo $this->sections['Navigation']; ?>
+</div>
+<?php endif; ?>
+
+<?php if($this->sections['Teaser']): ?>
+<div id="teaser">
+<?php echo $this->sections['Teaser']; ?>
+</div>
+<?php endif; ?>
+
+<?php if($this->left || $this->right): ?>
+<div id="main" class="wrap">
+<div class="box">
+<div class="col-wrap">
+<?php if($this->main): ?>
+<div class="col-one">
+<div class="i-center clearfix">
+<?php echo $this->main; ?>
+</div>
+</div>
+<?php endif; ?>
+
+<?php if($this->left && $this->right): ?>
+<div class="col-two">
+<div class="i-center clearfix">
+<?php echo $this->left; ?>
+</div>
+</div>
+<?php else: ?>
+<div class="col-three">
+<div class="i-center clearfix">
+<?php echo $this->left; ?>
+</div>
+<div class="clearing-ie"> &#160; </div>
+</div>
+<?php endif; ?>
+
+<?php if($this->right): ?>
+<div class="col-three">
+<div class="i-center clearfix">
+<?php echo $this->right; ?>
+</div>
+<div class="clearing-ie"> &#160; </div>
+</div>
+<?php endif; ?>
+</div>
+</div>
+</div>
+<?php else: ?>
+<div id="main">
+<?php echo $this->main; ?>
+</div>
+<?php endif; ?>
+
+<?php if($this->sections['SubFooter']): ?>
+<div id="sub-footer">
+<?php echo $this->sections['SubFooter']; ?>
+</div>
+<?php endif; ?>
+
+<?php if($this->footer): ?>
+<div id="footer">
+<?php echo $this->footer; ?>
+</div>
+<?php endif; ?>
+
+<?php echo $this->mootools; ?>
+<?php if (!$this->disableCron): ?>
+
+<script type="text/javascript">
+/* <![CDATA[ */
+new Request({
+  url:'system/html/cron.txt',
+  onComplete: function(txt) {
+    if (!txt) txt = 0;
+    if (parseInt(txt) < (Math.round(+new Date()/1000) - 300)) {
+      new Request({url:'cron.php'}).get();
+    }
+  }
+}).get();
+/* ]]> */
+</script>
+<?php endif; ?>
+
+</body>
+</html>

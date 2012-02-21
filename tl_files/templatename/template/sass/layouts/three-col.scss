@@ -1,17 +1,33 @@
 @media screen {
 	.three-col {
+		#main {
+			float: left;
+			width: 100%;
+		}
 		.col-one {
+			float: left;
 			width: 50%;
+			margin: 0 0 0 25%;
 			.i-center {
 				padding: 0 0.75em 0 1.5em;
 			}
 		}
 		.col-two {
+			float: left;
 			width: 25%;
+			margin: 0 0 0 -75%;
+			.i-center {
+				padding: 0 0.75em 0 1.5em;
+			}
 		}
 		.col-three {
+			float: right;
 			width: 25%;
-			margin-left: 75%;
+			margin-left: -5px;
+			margin-right: 0;
+			.i-center {
+				padding: 0 1.5em 0 0.75em;
+			}
 		}
 	}
 }

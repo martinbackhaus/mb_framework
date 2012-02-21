@@ -1,0 +1,681 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"g-b",
+				"g-box-right"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"col",
+				"col-one"
+			],
+			[
+				"fi",
+				"figure"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"over",
+				"overflow	overflow: type"
+			],
+			[
+				"fonz",
+				"fontSize"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"po",
+				"pointer"
+			],
+			[
+				"ligh",
+				"grayLight"
+			],
+			[
+				"g",
+				"grayLighter"
+			],
+			[
+				"light",
+				"grayLight"
+			],
+			[
+				"list",
+				"list	list-style-type: numeric"
+			],
+			[
+				"fle",
+				"flex-container"
+			],
+			[
+				"warning",
+				"warningText"
+			],
+			[
+				"error",
+				"errorText"
+			],
+			[
+				"info",
+				"infoText"
+			],
+			[
+				"mar",
+				"margin	margin: V H"
+			],
+			[
+				"pad",
+				"padding	padding: all"
+			],
+			[
+				"backgroun",
+				"background	background-color: hex"
+			],
+			[
+				"font",
+				"font	font-family: family"
+			],
+			[
+				"str",
+				"strJquery"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"options",
+				"options_callback"
+			],
+			[
+				"flex",
+				"flexslider_addjs"
+			],
+			[
+				"tl",
+				"tllang	tl_lang"
+			],
+			[
+				"arr",
+				"arrMaxSize"
+			],
+			[
+				"obj",
+				"objElements"
+			],
+			[
+				"ob",
+				"objSettings"
+			],
+			[
+				"control",
+				"controlnav"
+			],
+			[
+				"tl_fle",
+				"tl_flexslider_elements"
+			],
+			[
+				"pause",
+				"pauseplay"
+			],
+			[
+				"controlsco",
+				"controlscontainer"
+			],
+			[
+				"contro",
+				"controlnav"
+			],
+			[
+				"pauseonac",
+				"pauseonaction"
+			],
+			[
+				"pauseona",
+				"pauseonaction"
+			],
+			[
+				"slid",
+				"slidetostart"
+			],
+			[
+				"slidetos",
+				"slidetostart"
+			],
+			[
+				"pausete",
+				"pausetext"
+			],
+			[
+				"pausepl",
+				"pauseplay"
+			],
+			[
+				"pre",
+				"prevtext"
+			],
+			[
+				"objt",
+				"objTplJS"
+			],
+			[
+				"controlnav",
+				"controlnav"
+			],
+			[
+				"directionna",
+				"directionnav"
+			],
+			[
+				"animai",
+				"animationduration"
+			],
+			[
+				"slideshowspe",
+				"slideshowspeed"
+			],
+			[
+				"sld",
+				"slideshow"
+			],
+			[
+				"slide",
+				"slidedirection"
+			],
+			[
+				"pau",
+				"pauseonhover"
+			],
+			[
+				"pa",
+				"pauseonhover"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"tl_",
+				"tl_flexslider"
+			],
+			[
+				"Mausrad",
+				"Mausradnavigation"
+			],
+			[
+				"Tast",
+				"Tastaturnavigation"
+			],
+			[
+				"Back",
+				"Backend"
+			],
+			[
+				"pauseon",
+				"pauseonaction"
+			],
+			[
+				"anima",
+				"animationloop"
+			],
+			[
+				"rand",
+				"randomize"
+			],
+			[
+				"next",
+				"nexttext"
+			],
+			[
+				"key",
+				"keyboardnav"
+			],
+			[
+				"option",
+				"options"
+			],
+			[
+				"array",
+				"array"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/fe_page.xhtml",
+			"settings":
+			{
+				"buffer_size": 2885,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 72.0,
+		"selected_items":
+		[
+			[
+				"quick",
+				"Quick File Creator: Create directory"
+			],
+			[
+				"instl",
+				"Package Control: Install Package"
+			],
+			[
+				"open",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"quick fifi",
+				"Quick File Creator: Create file"
+			],
+			[
+				"quick fi fi",
+				"Quick File Creator: Create file"
+			],
+			[
+				"pick",
+				"Color picker"
+			],
+			[
+				"col",
+				"Color picker"
+			],
+			[
+				"colo",
+				"Color picker"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packe",
+				"Package Control: Install Package"
+			],
+			[
+				"quick ",
+				"Quick File Creator: Create file"
+			],
+			[
+				"qui fi fi",
+				"Quick File Creator: Create file"
+			],
+			[
+				"quic fi fi",
+				"Quick File Creator: Create file"
+			],
+			[
+				"quick file file",
+				"Quick File Creator: Create file"
+			],
+			[
+				"quick fil fi",
+				"Quick File Creator: Create file"
+			],
+			[
+				"create file",
+				"Quick File Creator: Create file"
+			],
+			[
+				"quick file create file",
+				"Quick File Creator: Create file"
+			],
+			[
+				"qui",
+				"Quick File Creator: Create file"
+			],
+			[
+				"quic",
+				"Quick File Creator: Create directory"
+			],
+			[
+				"qio",
+				"Quick File Creator: Create directory"
+			],
+			[
+				"Packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet:",
+				"Snippet: SESSION['…']"
+			]
+		],
+		"width": 606.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/schupp/.htaccess",
+		"/Applications/MAMP/htdocs/schupp/templates/schupp/news_latest_start.html5",
+		"/Applications/MAMP/htdocs/schupp/tl_files/schupp/template/css/core/iehacks.css",
+		"/Applications/MAMP/htdocs/schupp/tl_files/schupp/template/css/navigation/superfish.less",
+		"/Applications/MAMP/htdocs/schupp/templates/schupp/nav_menumatic.html5",
+		"/Applications/MAMP/htdocs/schupp/tl_files/schupp/template/css/screen/navigation.css",
+		"/Applications/MAMP/htdocs/schupp/templates/schupp/fe_page.html5",
+		"/Applications/MAMP/htdocs/schupp/tl_files/schupp/template/css/screen/basemod.css",
+		"/Applications/MAMP/htdocs/schupp/tl_files/schupp/template/js/domscripts.js",
+		"/Applications/MAMP/htdocs/schupp/tl_files/schupp/template/js/schupp_additional.js",
+		"/Applications/MAMP/htdocs/schupp/system/config/localconfig.php",
+		"/Applications/MAMP/htdocs/schupp/tl_files/schupp/template/framework/sass/modules/news.scss",
+		"/Applications/MAMP/htdocs/schupp/tl_files/schupp/template/framework/sass/screen.scss",
+		"/Applications/MAMP/htdocs/schupp/tl_files/schupp/template/framework/sass/print.scss",
+		"/Applications/MAMP/htdocs/sandbox/tl_files/sandbox/template/less/grid.less",
+		"/Applications/MAMP/htdocs/sandbox/tl_files/sandbox/template/less/colors.less",
+		"/Applications/MAMP/htdocs/sandbox/tl_files/sandbox/template/less/navigation.less",
+		"/Applications/MAMP/htdocs/sandbox/tl_files/sandbox/template/less/header.less",
+		"/Applications/MAMP/htdocs/sandbox/tl_files/sandbox/template/less/footer.less",
+		"/Applications/MAMP/htdocs/sandbox/tl_files/sandbox/template/less/formular.less",
+		"/Applications/MAMP/htdocs/sandbox/tl_files/sandbox/template/less/print.less",
+		"/Applications/MAMP/htdocs/sandbox/tl_files/sandbox/template/less/reset.less",
+		"/Applications/MAMP/htdocs/sandbox/templates/fe_page.html5",
+		"/Applications/MAMP/htdocs/sandbox/tl_files/sandbox/template/less/screen.less",
+		"/Applications/MAMP/htdocs/sandbox/system/config/localconfig.php",
+		"/Applications/MAMP/htdocs/sandbox/templates/ce_colsetStart.html5",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/subcolumns/colsetPart.php",
+		"/Applications/MAMP/htdocs/sandbox/plugins/flexslider/flexslider.css",
+		"/Applications/MAMP/htdocs/sandbox/templates/mod_subcolumns.html5",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/subcolumns/ModuleSubcolumns.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/subcolumns/colsetStart.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/subcolumns/templates/mod_subcolumns.html5",
+		"/Applications/MAMP/htdocs/sandbox/templates/ce_colsetPart.html5",
+		"/Applications/MAMP/htdocs/sandbox/templates/ce_colsetEnd.html5",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/subcolumns/html/subcols_extended.src.css",
+		"/Users/backes/Downloads/dmitryf-elements-ebdcd8c/elements.less",
+		"/Users/backes/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/Users/backes/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/Applications/MAMP/htdocs/sandbox/tl_files/sandbox/template/less/base.less",
+		"/Applications/MAMP/htdocs/sandbox/tl_files/sandbox/template/less/base.css",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/config/config.php",
+		"/Users/backes/Library/Application Support/Sublime Text 2/Packages/Alignment/Default (OSX).sublime-keymap",
+		"/Users/backes/Library/Application Support/Sublime Text 2/Packages/Alignment/Base File.sublime-settings",
+		"/Users/backes/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/html/style.css",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/dca/tl_flexslider_elements.php",
+		"/Applications/MAMP/htdocs/sandbox.sublime-project",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/imageslider/ModuleImageslider.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/imageslider/templates/imageslider_js.html5",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/dca/tl_flexslider.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/config/database.sql",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/jq_templates/config/config.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/frontend/PageRegular.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/theme_plus/config/config.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/zz_jq_templates/JQTemplatePageRegular.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/zz_jq_templates/config/config.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/templates/mod_flexslider.html5",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/ModuleFlexslider.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/templates/flexslider_js.html5",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/languages/de/tl_flexslider.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/languages/de/tl_flexslider_elements.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/dca/tl_module.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/languages/de/modules.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/backend/dca/tl_layout.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/jq_templates/dca/tl_layout.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/jq_templates/JQTemplatePageRegular.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/jq_templates/JQTemplate.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/backend/BackendTemplate.php",
+		"/Applications/MAMP/htdocs/sandbox/templates/jq_accordion.html5",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/backend/config/database.sql",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/jq_templates/config/database.sql",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/theme_plus/ThemePlusPageRegular.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/jq_templates/JQueryTpl.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/imageslider/dca/tl_imageslider.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/imageslider/dca/tl_module.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/imageslider/languages/de/tl_imageslider.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/templates/imageslider_css.html5",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/imageslider/dca/tl_imageslider_elements.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/flexslider/dca/tl_content.php",
+		"/Applications/MAMP/htdocs/sandbox/system/modules/imageslider/config/database.sql",
+		"/Users/backes/Library/Application Support/Sublime Text 2/Packages/User/tl_lang.sublime-snippet"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"typography.less",
+			"",
+			"localconfig.php",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bootstrap",
+			"font-size: 1.3em;",
+			"subcolumns",
+			"): ?>",
+			"ym-gboxr",
+			"subcr",
+			"subc",
+			"subcl",
+			"c75r",
+			"c66r",
+			"c62r",
+			"c60r",
+			"c40r",
+			"c38r",
+			"c50r",
+			"c38l",
+			"c40l",
+			"c60l",
+			"c62l",
+			"c66l",
+			"c75l",
+			"c50l",
+			"c33r",
+			"c33l",
+			"c25r",
+			"c25l",
+			"inner",
+			"grid_1",
+			"grid_",
+			"be_imageslider_elements",
+			";\" ",
+			"mootools",
+			"FE_MOD",
+			"hook",
+			"footer",
+			"mootools",
+			"mooscripts",
+			"createFooter",
+			"createFoot",
+			"TL_MOOTOOLS",
+			"']",
+			"MOOTO",
+			"TL_MOOTOOLS",
+			"createFooterScripts",
+			"mootools"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"font-size: @fontSize;",
+			"ym-gbox",
+			"ym-g75 ym-gr",
+			"ym-g66 ym-gr",
+			"ym-g62 ym-gr",
+			"ym-g60 ym-gr",
+			"ym-g40 ym-gr",
+			"ym-g38 ym-gr",
+			"ym-g50 ym-gr",
+			"ym-g38 ym-gl",
+			"ym-g40 ym-gl",
+			"ym-g60 ym-gl",
+			"ym-g62 ym-gl",
+			"ym-g66 ym-gl",
+			"ym-g75 ym-gl",
+			"ym-g50 ym-gl",
+			"ym-g33 ym-gr",
+			"ym-g33 ym-gl",
+			"ym-g25 ym-gr",
+			"ym-g25 ym-gl",
+			"ym-gbox",
+			"ym-g20",
+			"span",
+			"be_flexslider_elements"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/fe_page.xhtml",
+					"settings":
+					{
+						"buffer_size": 2885,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2885,
+								2885
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 369.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"tl_image",
+				"system/modules/imageslider/dca/tl_imageslider.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 405.0,
+	"status_bar_visible": true
+}
