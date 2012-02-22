@@ -1,1 +1,29 @@
 .p-margins { width: 1000px; margin: 0 auto;}
+
+.i-center {
+	padding: 1em;
+}
+
+@media screen {
+	body {
+		overflow-y: scroll;
+	}
+
+	#header {
+		color: #ccc;
+	}
+
+	#nav {
+		background: #222;
+	}
+
+	#footer {
+		background: #eee;
+		color: #444;
+	}
+
+	.g-box { padding: 0 1em 0 1em; }
+	.g-box-left { padding: 0 1em 0 0; }
+	.g-box-right { padding: 0 0 0 1em; }
+
+}

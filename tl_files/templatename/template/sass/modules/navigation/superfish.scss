@@ -1,4 +1,7 @@
+/* Variables for superfish theme */
+
 $ul-width: 10em;
+$linkPadding: 0.7em;
 
 .sf-menu, .sf-menu * {
 	margin: 0;
@@ -29,7 +32,7 @@ $ul-width: 10em;
 		&:hover ul,
 		&.sfHover ul {
 			left: 0;
-			top: 3em;
+			top: $linkPadding*2 + $fontSize;
 			z-index: 99;
 		}
 	}
@@ -67,7 +70,6 @@ ul {
 						top: 0;
 					}
 				}
-
 			}
 		}
 	}
@@ -77,37 +79,57 @@ ul {
 
 .sf-menu {
 	float: left;
-	margin-bottom: 1em;
-
-	a {
-		border-left: 1px solid #fff;
-		border-top: 1px solid #cfdeff;
-		padding: .75em 1em;
-		text-decoration: none;
-		color: #13a;
-		&:visited {
-			color: #13a;
-		}
-		&:focus, &:hover, &:active {
-			outline: 0;
-			background: #cfdeff;
-		}
-	}
+	font-size: $fontSize;
 
 	li {
-		background: #bdd2ff;
-
-		li {
-			background: #aabde6;
-
-			li {
-				background: #9aaedb;
+		background: transparent;
+		a {
+			border-left: 1px solid $grayLighter;
+			padding: $linkPadding 1em;
+			text-decoration: none;
+			color: $gray;
+			&:visited {
+				color: $gray;
+			}
+			&.first {
+				border: none;
 			}
 		}
-		
-		&:hover, &.sfHover {
+
+		li {
+			background: $white;
+			a {
+				border: 1px solid $grayLighter;
+				border-width: 1px 1px 0px 1px;
+				&.last {
+					border-width: 1px;
+				}
+				&.first {
+					border: 1px solid $grayLighter;
+					border-width: 1px 1px 0px 1px;
+				}
+			}
+
+			li {
+				background: $white;
+				a {
+					border: 1px solid $grayLighter;
+					border-width: 1px 1px 1px 0px;
+					&.first {
+						border-width: 1px 1px 0px 0px;
+					}
+					&.last {
+						border-width: 1px 1px 1px 0px;
+					}
+				}
+			}
+		}
+	}
+	a, li {
+		&:focus, &:hover, &:active, &.sfHover {
 			outline: 0;
-			background: #cfdeff;
+			background: $orange;
+			border-bottom: 0;
 		}
 	}
 }

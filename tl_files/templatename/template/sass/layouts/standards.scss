@@ -1,0 +1,56 @@
+body {
+	font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+	color: $gray;
+	background: $grayLighter;
+}
+
+.fix {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10000;
+	-webkit-box-shadow: 0 0 12px 6px rgba(0,0,0,.5);
+	-moz-box-shadow: 0 0 12px 6px rgba(0,0,0,.5);
+	box-shadow: 0 0 12px 6px rgba(0,0,0,.5);
+	width: 100%;
+}
+    
+#navigation.fix {
+	background: #222222;
+	background-image: linear-gradient(bottom, rgb(247,247,247) 87%, rgb(237,237,237) 0%);
+	background-image: -o-linear-gradient(bottom, rgb(247,247,247) 87%, rgb(237,237,237) 0%);
+	background-image: -moz-linear-gradient(bottom, rgb(247,247,247) 87%, rgb(237,237,237) 0%);
+	background-image: -webkit-linear-gradient(bottom, rgb(247,247,247) 87%, rgb(237,237,237) 0%);
+	background-image: -ms-linear-gradient(bottom, rgb(247,247,247) 87%, rgb(237,237,237) 0%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.87, rgb(247,247,247)),
+		color-stop(0, rgb(237,237,237))
+	);
+	border-bottom: 1px solid #fff;
+}
+
+#navigation {
+	.p-margins {
+		@include gradient(rgb(247,247,247),rgb(237,237,237));
+		@include ie-linear-gradient(rgb(247,247,247), rgb(237,237,237));
+	}
+}
+
+#teaser {
+	margin-bottom: 4em;
+}
+
+#main {
+	.p-margins {
+		background: $white;
+		background-image: url('../../images/flowlines.png');
+		background-repeat: no-repeat;
+		div.clearfix {
+			padding: 1em;
+		}
+	}
+}

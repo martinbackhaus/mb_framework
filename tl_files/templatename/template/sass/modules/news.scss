@@ -1,0 +1,23 @@
+.news_start {
+	border-bottom: 1px solid $grayLighter;
+	margin: 0.5em 0;
+	padding: 0.5em 0;
+	h2 {
+		font-size: $fontSize + 0.2em;
+		font-weight: bold;
+	}
+	.teaser {
+		margin: 0.5em 0;
+	}
+	.metaInfo {
+		overflow:hidden;
+		.info {
+			float: left;
+			font-size: $fontSize - 0.2em;
+		}
+		.more {
+			float: right;
+			font-size: $fontSize - 0.2em;
+		}
+	}
+}

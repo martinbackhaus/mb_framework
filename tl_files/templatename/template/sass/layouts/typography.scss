@@ -1,0 +1,56 @@
+/* HEADLINES */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: $fontSize+1.1;
+}
+
+h2 {
+	font-size: $fontSize+0.9;
+}
+
+h3 {
+	font-size: $fontSize+0.7;
+}
+
+h4 {
+	font-size: $fontSize+0.5;
+	font-weight: bold;
+}
+
+h5 {
+	font-size: $fontSize+0.3;
+	font-weight: bold;
+}
+
+h6 {
+	font-size: $fontSize+0.1;
+	font-weight: bold;
+}
+
+/* PARAGRAPHS */
+
+p {
+	font-size: $fontSize;
+	line-height: 1.4;
+}
+
+/* LINKS */
+
+a {
+	text-decoration: none;
+	color: $orange;
+	&:visited {
+		color: $orange;
+	}
+	&:focus, &:hover {
+		border-bottom: 1px dotted $orange;
+	}
+	&:active {
+		border-bottom: 1px solid $orange;
+	}
+}
